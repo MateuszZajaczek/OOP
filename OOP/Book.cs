@@ -58,10 +58,9 @@ namespace Books
             Console.ForegroundColor = ConsoleColor.Blue;
             Book Book_2 = new Book("Zielona Mila", "Stephen King", "Albatros", 416, 2021, 36.47f);
             Book_2.bookIntroduction();
-            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.ForegroundColor = ConsoleColor.White;
             Book Book_3 = new Book("Bieguni", "Olga Tokarczuk", "Literackie", 460, 2019, 43.28f);
-            Book_3.bookIntroduction();
-            Console.ForegroundColor = ConsoleColor.White;           
+            Book_3.bookIntroduction();            
         }
     }
 }
